@@ -1,8 +1,18 @@
+.container-avatar {
+  text-align: center;
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .avatar {
   border-radius: 50%;
   background-position: center;
+  height: 180px;
+  width: 180px;
   background-size: cover;
   position: relative;
   box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  border: #f7f7f7 1px solid;
+  border: #587583 8px solid;
 }

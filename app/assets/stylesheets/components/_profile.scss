@@ -1,0 +1,26 @@
+.container-profile {
+  height: 100vh;
+}
+
+.profile {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: #A6AFAE;
+  margin-left: 20vh;
+  margin-right: 20vh;
+}
+
+.intro {
+  margin-left: 40vh;
+  margin-right: 40vh;
+  h4 {
+    line-height: 25px;
+  }
+}
+
+.skills-lead h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30vh;
+}
