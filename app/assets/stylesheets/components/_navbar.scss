@@ -1,0 +1,47 @@
+/* Main navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  background: white;
+  transition: all 0.3s ease;
+  height: 120px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-brand img {
+  height: 30px;
+}
+
+/* Right section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-link {
+  color: #ffda44;
+  font-size: 14px;
+  text-decoration: none;
+}
+.navbar-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+.custom_icon {
+  width: 18px;
+  height: 16px;
+  vertical-align: text-bottom;
+  margin-bottom: 1px;
+}
