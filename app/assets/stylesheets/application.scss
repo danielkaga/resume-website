@@ -11,10 +11,7 @@
 @import "bootstrap";
 
 // CSS partials
-// @import "layouts/index";
-// @import "components/index";
-// @import "pages/index";
-
-body {
-  margin-top: 70px;
-}
+@import "components/avatar";
+@import "components/banner";
+@import "components/navbar";
+@import "pages/home";

@@ -1,9 +1,9 @@
 /* Main navbar */
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  background: white;
+  background: rgba(255,255,255,0.6);
   transition: all 0.3s ease;
-  height: 120px;
+  height: 80px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
@@ -30,12 +30,13 @@
 
 /* Navbar link */
 .navbar-link {
-  color: #ffda44;
-  font-size: 14px;
+  color: white;
+  font-size: 22px;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 .navbar-link:hover {
-  color: #da552f;
+  color: #ffda44;
   text-decoration: none;
 }
 
