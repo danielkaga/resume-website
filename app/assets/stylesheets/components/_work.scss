@@ -1,0 +1,55 @@
+.wrapper-work {
+  text-align: center;
+  height: 100vh;
+}
+
+.timeline {
+  display: flex;
+  justify-content: center;
+  height: 150vh;
+}
+
+.black-line {
+  background-color: black;
+  width: 10px;
+}
+
+.work-card-deck {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-card {
+  padding: 10px;
+  background-color: #A6AFAE;;
+  height: 300px;
+  width: 65%;
+  margin: 0 auto;
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+}
+
+.work-card-header {
+  height: 15%;
+}
+
+.left {
+  margin-bottom: 15vh;
+}
+.right {
+  margin-top: 15vh;
+}
+
+.work-description {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
