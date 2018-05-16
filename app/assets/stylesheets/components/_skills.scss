@@ -6,8 +6,7 @@
   display: block;
   justify-content: center;
   color: #A6AFAE;
-  margin-left: 20vh;
-  margin-right: 20vh;
+  margin-right: 5vh;
 }
 
 .skill {
@@ -16,7 +15,7 @@
   align-items: center;
   margin-bottom: 5vh;
   i {
-    font-size: 10rem;
+    font-size: 7rem;
   }
 }
 
@@ -25,7 +24,7 @@
 
 /* Container for skill bars */
 .container-bar {
-  margin-left: 20vh;
+  margin-left: 10vh;
   width: 50%; /* Full width */
   background-color: #ddd; /* Grey background */
   border-radius: 25px;
