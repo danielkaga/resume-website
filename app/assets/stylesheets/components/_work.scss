@@ -1,7 +1,17 @@
 .wrapper-work {
   text-align: center;
-  height: 100vh;
+  margin-top: 10vh;
 }
+
+.wrapper-experience {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .row {
+    width: 70%;
+  }
+}
+
 
 .timeline {
   display: flex;
@@ -9,9 +19,41 @@
   height: 150vh;
 }
 
-.black-line {
+.line {
   background-color: black;
   width: 10px;
+}
+
+.line-dot {
+  height: 30px;
+  margin-left: -10px;
+  margin-right: -10px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.first {margin-top: calc(5vh + 150px);}
+.second {margin-top: 5vh;}
+.third {margin-top: calc(10vh + 240px);}
+.fourth {margin-top: 5vh;}
+.fifth {margin-top: calc(10vh + 240px);}
+
+.line-left {
+  height: 5px;
+  background-color: black;
+  position: relative;
+  top: 15px;
+  right: 0;
+  margin-left: -130px;
+}
+
+.line-right {
+  height: 5px;
+  background-color: black;
+  position: relative;
+  top: 15px;
+  left: 0;
+  margin-right: -150px;
 }
 
 .work-card-deck {
@@ -24,13 +66,13 @@
   padding: 10px;
   background-color: #A6AFAE;;
   height: 300px;
-  width: 65%;
+  width: 300px;
   margin: 0 auto;
   h2 {
-    font-size: 22px;
+    font-size: 18px;
   }
   h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
   h4 {
     font-size: 14px;
@@ -38,11 +80,12 @@
 }
 
 .work-card-header {
-  height: 15%;
+  height: 10%;
 }
 
 .left {
   margin-bottom: 15vh;
+  margin-top: 5vh;
 }
 .right {
   margin-top: 15vh;
@@ -52,4 +95,6 @@
   width: 80%;
   margin: 0 auto;
   text-align: left;
+  height:100%;
+  margin: 0 auto;
 }
