@@ -1,6 +1,7 @@
 .wrapper-work {
   text-align: center;
   margin-top: 10vh;
+  height: 150vh;
 }
 
 .wrapper-experience {
@@ -43,8 +44,8 @@
   background-color: black;
   position: relative;
   top: 15px;
-  right: 0;
-  margin-left: -130px;
+  right: 5px;
+  margin-left: -125px;
 }
 
 .line-right {
@@ -52,7 +53,7 @@
   background-color: black;
   position: relative;
   top: 15px;
-  left: 0;
+  left: 5px;
   margin-right: -150px;
 }
 
@@ -63,8 +64,9 @@
 }
 
 .work-card {
+  border-radius: 10px;
   padding: 10px;
-  background-color: #A6AFAE;;
+  background-color: #DDDDDD;
   height: 300px;
   width: 300px;
   margin: 0 auto;
@@ -80,7 +82,14 @@
 }
 
 .work-card-header {
-  height: 10%;
+  weight: 100%;
+  background-color: #A6AFAE;
+  padding: 10px;
+  border-radius: 5px;
+  vertical-align: center;
+  h2 {
+    line-height: 20px;
+  }
 }
 
 .left {
