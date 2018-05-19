@@ -16,13 +16,16 @@
 .footer-links {
   max-width: 600px;
   color: rgba(255,255,255,0.8);
+  line-height: 70px;
+  font-size: 20px;
+  li {
+    padding: 0px 10px;
+  }
 }
 
 .footer-about {
+  font-size: 16px;
   color: rgba(255,255,255,0.8);
-  #heart {
-    color: red;
-  }
   .footer-connect {
     a {
       color: rgba(255,255,255,0.8);
