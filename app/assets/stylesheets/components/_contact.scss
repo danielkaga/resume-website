@@ -76,6 +76,7 @@
 // MEDIUM DEVICES
 @media (min-width:480px) and (max-width:768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   .container-contact {
+    min-height: 450px;
     padding-top: 75px;
     margin-top: 0;
   }

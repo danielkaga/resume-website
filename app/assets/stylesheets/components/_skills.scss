@@ -63,8 +63,10 @@
   }
   .tools {
     height: 100px;
-    width: 60vw;
+    display: block;
+    text-align: center;
     h2 {
+      width: 100%;
       font-size: 20px;
     }
   }
@@ -82,8 +84,10 @@
   }
   .tools {
     height: 150px;
+    display: block;
+    text-align: center;
     h2 {
-      width: 80vw;
+      width: 100%;
       font-size: 24px;
     }
   }
