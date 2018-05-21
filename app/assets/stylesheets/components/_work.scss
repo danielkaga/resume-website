@@ -38,11 +38,11 @@
   background-color: #2a2627;
 }
 
-.first {margin-top: calc(5vh + 150px);}
+.first {margin-top: calc(5vh + 175px);}
 .second {margin-top: 5vh;}
-.third {margin-top: calc(10vh + 240px);}
+.third {margin-top: calc(10vh + 290px);}
 .fourth {margin-top: 5vh;}
-.fifth {margin-top: calc(10vh + 240px);}
+.fifth {margin-top: calc(10vh + 290px);}
 
 .line-left {
   height: 5px;
@@ -50,7 +50,7 @@
   position: relative;
   top: 15px;
   right: 5px;
-  margin-left: -10vw;
+  margin-left: -15vw;
   z-index: -1;
 }
 
@@ -60,7 +60,7 @@
   position: relative;
   top: 15px;
   left: 5px;
-  margin-right: -10vw;
+  margin-right: -15vw;
   z-index: -1;
 }
 
