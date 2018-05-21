@@ -1,13 +1,17 @@
 let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   let navbar = document.getElementById("navbar")
+  let about = document.getElementById("profile").offsetTop;
+  let skills = document.getElementById("skills").offsetTop;
+  let work = document.getElementById("work").offsetTop;
+  let contact = document.getElementById("contact").offsetTop;
   let currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollpos > currentScrollPos || [0, about, skills, work, contact].includes(currentScrollPos)) {
     navbar.style.top = "0";
   } else {
     navbar.style.top = "-80px";
   }
-  if (currentScrollPos > (window.innerHeight - 20)) {
+  if (currentScrollPos > (about - 20)) {
     document.querySelectorAll(".navbar-link").forEach(function(link) {
       link.style.color = "#8991A6";
     });

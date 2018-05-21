@@ -1,11 +1,11 @@
 .footer {
+  height: 20vh;
+  min-height: 120px;
   background-color: #2a2627;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  margin-top: 6vh;
-
   position: relative;
   right: 0px;
   bottom: 0px;
@@ -14,82 +14,56 @@
 }
 
 .footer-links {
-  max-width: 600px;
   color: rgba(255,255,255,0.8);
   line-height: 70px;
   font-size: 20px;
-  li {
-    padding: 0px 10px;
+  padding-right: 2vw;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
 .footer-about {
+  width: 40vw;
+  height: 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 2vw;
   font-size: 16px;
-  color: rgba(255,255,255,0.8);
   .footer-connect {
     a {
-      color: rgba(255,255,255,0.8);
+      color: white;
       text-decoration: none;
       &:hover {
         opacity: 1;
-      }
-      i {
-        padding-right: 5px;
-        padding-left: 2px;
       }
     }
   }
 }
 
+#footer-border {
+  border-left: 2px solid $text;
+}
+
 
 // SMALL DEVICES
-@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
-.footer-info {
-  padding: 30px 10px 20px 10px;
-}
-
-.footer-about {
-  padding: 30px 10px;
-  border-top: 1px solid rgba(234,0,63,0.6);
-  .footer-connect {
-    float: center;
-    text-align: center;
+@media (min-width:0px) and (max-width:480px) { /* smartphones, iPhone, portrait 480x320 phones */
+  .footer-links {
+    font-size: 16px;
   }
-  p {
-    text-align: center;
-  }
-}
 }
 
 // MEDIUM DEVICES
-@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-.footer {
-  min-height: 27vh;
-}
-
-.footer-info {
-  padding: 0px 20px 0px 0px;
-  float: right;
-}
-
-.footer-about {
-  border-top: none;
-  border-left: 1px solid rgba(234,0,63,0.6);
-  margin-top: 35px;
-  padding: 0px 0px 0px 20px;
-  float: left;
-  .footer-connect {
-    text-align: left;
+@media (min-width:480px) and (max-width:768px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .footer-links {
+    font-size: 16px;
   }
-  p {
-    text-align: left;
-  }
-}
 }
 
 // LARGE DEVICES
-@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
-.footer-about {
-  margin-top: 13px;
-}
+@media (min-width:768px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
 }

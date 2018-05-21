@@ -1,25 +1,24 @@
 .container-profile {
   height: 100vh;
+  display: flex;
+  justify-content: space-around;
 }
 
 .profile {
   display: block;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   color: $text;
-  margin-left: 20vh;
-  margin-right: 20vh;
   h2 {
     color: $brand;
   }
 }
 
 .intro {
-  margin-left: 40vh;
-  margin-right: 40vh;
+  display: block;
+  justify-content: space-around;
   h4 {
     padding-top: 3vh;
-    line-height: 25px;
   }
 }
 
@@ -29,3 +28,62 @@
   font-weight: bold;
   padding-top: 27vh;
 }
+
+// SMALL DEVICES
+@media (min-width:0px) and (max-width:480px) { /* mobile */
+  .container-profile {
+    height: 50vh;
+    min-height: 350px;
+    .skills-lead h1 {
+      font-size: 28px;
+      padding-top: 5vh;
+    }
+  }
+  .intro {
+    h4 {
+      width: 60vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+}
+
+// MEDIUM DEVICES
+@media (min-width:480px) and (max-width:768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .container-profile {
+    min-height: 550px;
+    .skills-lead h1 {
+      font-size: 34px;
+      padding-top: 30vh;
+    }
+  }
+  .intro {
+    h4 {
+      width: 60vw;
+      margin-left: 20vw;
+      margin-right: 20vw;
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+}
+
+// LARGE DEVICES
+@media (min-width:768px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .container-profile {
+    min-height: 700px;
+  }
+
+  .intro {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    h4 {
+      line-height: 25px;
+    }
+  }
+}
+
+

@@ -1,6 +1,6 @@
 .container-contact {
-  margin-top: 45vh;
-  height: 50vh;
+  height: 85vh;
+  margin-top: -15vh;
 }
 
 .contact {
@@ -8,8 +8,6 @@
   justify-content: center;
   text-align: center;
   color: $text;
-  margin-left: 20vh;
-  margin-right: 20vh;
   h1 {
     color: $brand;
   }
@@ -28,8 +26,8 @@
   h3 {
     color: $brand;
   }
-  margin-left: 40vh;
-  margin-right: 40vh;
+  margin-left: 22vw;
+  margin-right: 22vw;
   h4 {
     padding-top: 2vh;
     line-height: 25px;
@@ -54,5 +52,42 @@
   &:hover {
     background: $brand;
     color: $text;
+  }
+}
+
+// SMALL DEVICES
+@media (min-width:0px) and (max-width:480px) { /* mobile */
+  .container-contact {
+    padding-top: 60px;
+    margin-top: 0;
+  }
+  .outreach {
+    margin-left: 14vw;
+    margin-right: 14vw;
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+  }
+}
+
+// MEDIUM DEVICES
+@media (min-width:480px) and (max-width:768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .container-contact {
+    padding-top: 75px;
+    margin-top: 0;
+  }
+  .outreach {
+    margin-left: 14vw;
+    margin-right: 14vw;
+  }
+}
+
+// LARGE DEVICES
+@media (min-width:768px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .container-contact {
+    padding-top: 90px;
   }
 }

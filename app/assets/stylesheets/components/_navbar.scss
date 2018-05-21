@@ -60,3 +60,36 @@ a[ id= "profile" ]:target {
   transform: translateY( 0px );
 }
 
+// SMALL DEVICES
+@media (min-width:0px) and (max-width:480px) { /* mobile */
+  .navbar {
+    height: 50px;
+  }
+  .navbar-brand img {
+    height: 30px;
+    width: 34px;
+    margin-top: -5px;
+  }
+  .navbar-link {
+    font-size: 12px;
+  }
+}
+
+// MEDIUM DEVICES
+@media (min-width:480px) and (max-width:768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .navbar {
+    height: 65px;
+  }
+  .navbar-brand img {
+    height: 40px;
+    width: 43px;
+    margin-top: -10px;
+  }
+  .navbar-link {
+    font-size: 18px;
+  }
+}
+
+// LARGE DEVICES
+@media (min-width:768px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+}

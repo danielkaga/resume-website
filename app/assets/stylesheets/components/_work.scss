@@ -1,11 +1,12 @@
 .wrapper-work {
   text-align: center;
-  padding-top: 80px;
-  height: 170vh;
+  // height: 170vh;
 }
 
 .wrapper-experience {
-  height: 165vh;
+  .row {
+    width: 100% !important;
+  }
   display: flex;
   justify-content: center;
   .row {
@@ -14,14 +15,14 @@
 }
 
 .title-work {
-  color: $brand
+  color: $brand;
+  padding-bottom: 5vh;
 }
-
 
 .timeline {
   display: flex;
   justify-content: center;
-  height: 165vh;
+  height: 100%;
 }
 
 .line {
@@ -49,7 +50,7 @@
   position: relative;
   top: 15px;
   right: 5px;
-  margin-left: -20vh;
+  margin-left: -10vw;
   z-index: -1;
 }
 
@@ -59,7 +60,7 @@
   position: relative;
   top: 15px;
   left: 5px;
-  margin-right: -20vh;
+  margin-right: -10vw;
   z-index: -1;
 }
 
@@ -87,8 +88,15 @@
   }
 }
 
+.left {
+  margin-bottom: 15vh;
+  margin-top: 5vh;
+}
+.right {
+  margin-top: 15vh;
+}
+
 .work-card-header {
-  weight: 100%;
   background-color: #DDDDDD;
   padding: 10px;
   border-radius: 5px;
@@ -98,18 +106,69 @@
   }
 }
 
-.left {
-  margin-bottom: 15vh;
-  margin-top: 5vh;
-}
-.right {
-  margin-top: 15vh;
-}
-
 .work-description {
   width: 100%;
   text-align: left;
   height:100%;
   margin: 0 auto;
   margin-left: -10px;
+}
+
+// SMALL DEVICES
+@media (min-width:0px) and (max-width:480px) { /* mobile */
+  .wrapper-work {
+    padding-top: 60px;
+  }
+  .work-card {
+    height: 300px;
+    width: 260px;
+    h2 {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    h4 {
+      font-size: 12px;
+    }
+  }
+  .left {
+    margin-bottom: 5vh;
+    margin-top: 0vh;
+  }
+  .right {
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+  }
+  .work-card-header {
+    padding: 2px;
+    h2 {
+      line-height: 14px;
+    }
+  }
+  .work-description {
+    font-size: 13px;
+  }
+}
+
+// MEDIUM DEVICES
+@media (min-width:480px) and (max-width:768px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .wrapper-work {
+    padding-top: 75px;
+  }
+  .left {
+    margin-bottom: 5vh;
+    margin-top: 0vh;
+  }
+  .right {
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+  }
+}
+
+// LARGE DEVICES
+@media (min-width:768px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .wrapper-work {
+    padding-top: 90px;
+  }
 }
