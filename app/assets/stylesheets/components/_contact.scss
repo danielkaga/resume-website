@@ -7,28 +7,30 @@
   display: block;
   justify-content: center;
   text-align: center;
-  color: #A6AFAE;
+  color: $text;
   margin-left: 20vh;
   margin-right: 20vh;
   h1 {
-    color: #587583;
+    color: $brand;
   }
 }
 
 .contact-title {
   margin-bottom: 10 vh;
   h1 {
-    color: #587583;
+    color: $brand;
   }
 }
 
 .outreach {
+  padding-top: 5vh;
   h3 {
-    color: #587583;
+    color: $brand;
   }
   margin-left: 40vh;
   margin-right: 40vh;
   h4 {
+    padding-top: 2vh;
     line-height: 25px;
   }
 }

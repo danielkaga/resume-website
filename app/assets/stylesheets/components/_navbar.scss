@@ -1,15 +1,13 @@
 /* Main navbar */
 .navbar {
+  display: flex;
+  justify-content: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   background: rgba(255,255,255,0.6);
   transition: all 0.3s ease;
   height: 80px;
   line-height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: fixed;
-  top: 0;
   left: 0;
   width: 100%;
   z-index: 9998;
@@ -19,9 +17,18 @@
   }
 }
 
+.container-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
 /* Logo */
 .navbar-brand img {
   height: 50px;
+  width: 52px;
+  margin-top: -15px;
 }
 
 /* Right section */
@@ -40,12 +47,13 @@
 /* Navbar link */
 .navbar-link {
   color: white;
+  font-weight: bold;
   font-size: 22px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 .navbar-link:hover {
-  color: #ffda44;
+  color: $brand;
   text-decoration: none;
 }
 

@@ -8,7 +8,7 @@ window.onscroll = function() {
   }
   if (currentScrollPos > (window.innerHeight - 20)) {
     document.querySelectorAll(".navbar-link").forEach(function(link) {
-      link.style.color = "#587583";
+      link.style.color = "#8991A6";
     });
   } else {
     document.querySelectorAll(".navbar-link").forEach(function(link) {

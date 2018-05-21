@@ -5,7 +5,7 @@
 .skills {
   display: block;
   justify-content: center;
-  color: #A6AFAE;
+  color: $brand;
   margin-right: 5vh;
 }
 
@@ -16,6 +16,12 @@
   margin-bottom: 5vh;
   i {
     font-size: 7rem;
+  }
+}
+
+.tools {
+  h2 {
+    color: $text;
   }
 }
 
@@ -34,15 +40,15 @@
   text-align: right; /* Right-align text */
   padding-right: 20px; /* Add some right padding */
   line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
-  color: #587583; /* White text color */
+  color: $brand; /* White text color */
 }
 
-.ruby {width: 60%; background-color: #587583; border-radius: 25px;}
-.rails {width: 70%; background-color: #587583; border-radius: 25px;}
-.javascript {width: 40%; background-color: #587583; border-radius: 25px;}
-.html {width: 80%; background-color: #587583; border-radius: 25px;}
-.css {width: 70%; background-color: #587583; border-radius: 25px;}
-.sass {width: 65%; background-color: #587583; border-radius: 25px;}
-.git {width: 85%; background-color: #587583; border-radius: 25px;}
-.sql {width: 35%; background-color: #587583; border-radius: 25px;}
-.python {width: 20%; background-color: #587583; border-radius: 25px;}
+.ruby {width: 75%; background-color: $brand; border-radius: 25px;}
+.rails {width: 70%; background-color: $brand; border-radius: 25px;}
+.javascript {width: 55%; background-color: $brand; border-radius: 25px;}
+.html {width: 80%; background-color: $brand; border-radius: 25px;}
+.css {width: 70%; background-color: $brand; border-radius: 25px;}
+.sass {width: 65%; background-color: $brand; border-radius: 25px;}
+.git {width: 85%; background-color: $brand; border-radius: 25px;}
+.sql {width: 50%; background-color: $brand; border-radius: 25px;}
+.python {width: 20%; background-color: $brand; border-radius: 25px;}

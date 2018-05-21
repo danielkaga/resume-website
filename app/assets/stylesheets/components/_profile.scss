@@ -6,11 +6,11 @@
   display: block;
   justify-content: center;
   text-align: center;
-  color: #A6AFAE;
+  color: $text;
   margin-left: 20vh;
   margin-right: 20vh;
   h2 {
-    color: #587583;
+    color: $brand;
   }
 }
 
@@ -23,7 +23,7 @@
 }
 
 .skills-lead h1 {
-  color: #587583;
+  color: $brand;
   font-size: 40px;
   font-weight: bold;
   padding-top: 30vh;

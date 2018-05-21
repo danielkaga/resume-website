@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
   h1 {
     margin-top: -60px;
     letter-spacing: 2px;
@@ -28,4 +28,8 @@
   a {
     font-size: 20px;
   }
+}
+
+#title {
+  font-family: 'Montserrat', sans-serif;
 }
