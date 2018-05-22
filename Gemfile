@@ -6,6 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 ruby '2.4.3'
+gem 'rails_real_favicon'
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
 gem 'simple_form'
